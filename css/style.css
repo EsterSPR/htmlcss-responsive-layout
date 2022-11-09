@@ -155,7 +155,42 @@ section {
 
 /* #partners - WE ARE COMMITTED EXPERT PARTNERS */
    
+#partners {
+    text-align: center;
+}
 
+#partners>h2 {
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+#partners h1 {
+    font-size: 30pt;
+    color: #9792E5;
+}
+
+#partners p {
+    font-size: 17pt;
+    line-height: 40px;
+    margin: 40px 0 30px 0;
+}
+
+.partners-card {
+    background-color: #9792E5;
+    border-radius: 100px;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.partners-card img {
+    width: 100%;
+    border-radius: 100%;
+    padding: 0 30px;
+}
 
 /* #benefits - BENEFITS OF WORKING WITH US */
 
