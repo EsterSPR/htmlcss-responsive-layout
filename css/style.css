@@ -37,29 +37,99 @@ nav {
 
 /*MAIN E SECTION IN GENERALE*/
 
-main:nth-child(even) {
+section:nth-child(even) {
  background-color: #9792E5;
 }
 
 section {
     height: auto;
-    padding: 30px;
+    padding: 100px 50px;
 }
 
 /*GET A DEMO APPLICATION*/
 
+#demo {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: column;
+}
+
+.demo-card {
+    background-color: #B5DDFF;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.demo-card:first-child {
+    padding-bottom: 0;
+    text-align: left;
+}
+
+.demo-card h2 {
+    font-size: 25pt;
+    color: #0084FD;
+}
+
+.demo-card p {
+    color: #5A6E7F;
+    font-weight: 700;
+    font-size: 17pt;
+    margin-top: 40px;
+    line-height: 40px;
+}
+
+.demo-card img {
+    width: 400px;
+    margin: -5px auto;
+}
+
+.demo-card>i {
+    margin-bottom: 40px;
+    color: #0084FD;
+    font-size: 90pt;
+}
 
 /*STRATEGIC PLANNING*/
-            
+  
+#planning {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
 /*WE ARE COMMITTED EXPERT PARTNERS*/
-            
+   
+#partners {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
 /*BENEFITS OF WORKING WITH US*/
-            
+  
+#benefits {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
 /*ABOUT US*/
             
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
 /*GET STARTED*/
-            
+  
+#started {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
