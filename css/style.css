@@ -10,6 +10,33 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+/*NAV*/
+
+nav {
+    background-color: #0084FD;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.nav-col {
+    width: 50vw;
+    padding: 20px 50px;
+}
+
+.nav-left > img {
+    height: 60px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: right;
+    font-size: 30pt;
+}
+
+/*MAIN E SECTION IN GENERALE*/
+
 main:nth-child(even) {
  background-color: #9792E5;
 }
@@ -18,3 +45,21 @@ section {
     height: auto;
     padding: 30px;
 }
+
+/*GET A DEMO APPLICATION*/
+
+
+/*STRATEGIC PLANNING*/
+            
+
+/*WE ARE COMMITTED EXPERT PARTNERS*/
+            
+
+/*BENEFITS OF WORKING WITH US*/
+            
+
+/*ABOUT US*/
+            
+
+/*GET STARTED*/
+            
