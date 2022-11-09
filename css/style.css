@@ -331,3 +331,17 @@ section {
 #started-copyright {
     color: #fff;
 }
+
+/*FOOTER*/
+
+footer {
+    padding: 50px;
+    text-align: center;
+    background-color: #333333;
+    color: #fff;
+    font-size: 14pt;
+}
+
+footer a {
+    color: #9792E5;
+}
