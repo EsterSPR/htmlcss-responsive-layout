@@ -129,7 +129,7 @@ section {
 }
 
 .planning-left h1 {
-    font-size: 30pt;
+    font-size: 35pt;
     margin: 100px 0 50px 0;
 }
 
@@ -165,7 +165,7 @@ section {
 }
 
 #partners h1 {
-    font-size: 30pt;
+    font-size: 35pt;
     color: #9792E5;
 }
 
@@ -194,10 +194,140 @@ section {
 
 /* #benefits - BENEFITS OF WORKING WITH US */
 
+#benefits>h1 {
+    font-size: 35pt;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center;
+}
 
+.benefits-card {
+    background-color: #fff;
+    padding: 40px;
+    margin: 40px 0;
+    border-radius: 25px;
+}
+
+.benefits-card h1 {
+    font-size: 50pt;
+    color: #9792E5;
+}
+
+.benefits-card h2 {
+    font-size: 20pt;
+    margin: 20px 0;
+    color: #9792E5;
+}
+
+.benefits-card p {
+    font-size: 17pt;
+    line-height: 40px;
+    margin-bottom: 20px;
+    color: #5A6E7F;
+}
+
+.benefits-card button {
+    padding: 15px 60px;
+    background-color: #9792E5;
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 17pt;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+}
 
 /* #about - ABOUT US */
             
+#about h1 {
+    font-size: 35pt;
+    color: #9792E5;
+}
 
+#about p {
+    font-size: 17pt;
+    line-height: 40px;
+    margin: 40px 0;
+}
+
+#about-img {
+    width: 50%;
+    margin: 20px 0;
+}
+
+#about-img img {
+    width: 100%;
+    border-radius: 100%;
+    position: relative;
+}
+
+#about-img i {
+    font-size: 70pt;
+    color: #9792E5;
+    position: absolute;
+    left: 40%;
+}
+
+#about h2 {
+    color: #9792E5;
+    font-size: 30pt;
+}
+
+#about button {
+    margin: 40px 0;
+    padding: 10px 15px;
+    background-color: #9792E5;
+    color: #fff;
+    font-size: 14pt;
+    border: none;
+    border-radius: 50px;
+}
+
+#about-btn>i {
+    margin-right: 5px;
+}
 
 /* #started - GET STARTED */
+
+#started {
+    text-align: center;
+    color: #fff;
+}
+
+#get-started-caption {
+    font-weight: lighter;
+    margin-bottom: 10px;
+    color: #CCCAF1;
+}
+
+#get-started {
+    font-size: 30pt;
+}
+
+#started h1 {
+    color: #FDC15E;
+    font-size: 50pt;
+    margin: 30px 0;
+}
+
+#started-beta {
+    font-size: 17pt;
+    line-height: 40px;
+    color: #fff;
+}
+
+#started button {
+    margin: 40px 0;
+    padding: 25px 70px;
+    background-color: #fff;
+    color: #9792E5;
+    letter-spacing: 5px;
+    font-size: 17pt;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+}
+
+#started-copyright {
+    color: #fff;
+}
