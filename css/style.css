@@ -26,13 +26,13 @@ nav {
 }
 
 .nav-left > img {
-    height: 60px;
+    height: 50px;
 }
 
 .nav-right {
     display: flex;
     justify-content: right;
-    font-size: 30pt;
+    font-size: 25pt;
 }
 
 /*MAIN E SECTION IN GENERALE*/
@@ -75,7 +75,7 @@ section {
 .demo-card p {
     color: #5A6E7F;
     font-weight: 700;
-    font-size: 17pt;
+    font-size: 15pt;
     margin-top: 40px;
     line-height: 40px;
 }
@@ -97,7 +97,7 @@ section {
     background-color: #0084FD;
     color: #fff;
     letter-spacing: 5px;
-    font-size: 17pt;
+    font-size: 14pt;
     font-weight: 700;
     border: none;
     border-radius: 50px;
@@ -115,7 +115,7 @@ section {
 }
 
 .planning-left p {
-    font-size: 15pt;
+    font-size: 14pt;
     line-height: 35px;
     margin-bottom: 40px;
 }
@@ -140,7 +140,7 @@ section {
 
 #planning-card p {
     font-style: italic;
-    font-size: 17pt;
+    font-size: 15pt;
     line-height: 40px;
     margin-bottom: 40px;
 }
@@ -170,7 +170,7 @@ section {
 }
 
 #partners p {
-    font-size: 17pt;
+    font-size: 15pt;
     line-height: 40px;
     margin: 40px 0 30px 0;
 }
@@ -220,7 +220,7 @@ section {
 }
 
 .benefits-card p {
-    font-size: 17pt;
+    font-size: 14pt;
     line-height: 40px;
     margin-bottom: 20px;
     color: #5A6E7F;
@@ -231,7 +231,7 @@ section {
     background-color: #9792E5;
     color: #fff;
     letter-spacing: 5px;
-    font-size: 17pt;
+    font-size: 15pt;
     font-weight: 700;
     border: none;
     border-radius: 50px;
@@ -245,7 +245,7 @@ section {
 }
 
 #about p {
-    font-size: 17pt;
+    font-size: 15pt;
     line-height: 40px;
     margin: 40px 0;
 }
@@ -270,7 +270,7 @@ section {
 
 #about h2 {
     color: #9792E5;
-    font-size: 30pt;
+    font-size: 25pt;
 }
 
 #about button {
@@ -311,7 +311,7 @@ section {
 }
 
 #started-beta {
-    font-size: 17pt;
+    font-size: 15pt;
     line-height: 40px;
     color: #fff;
 }
@@ -322,7 +322,7 @@ section {
     background-color: #fff;
     color: #9792E5;
     letter-spacing: 5px;
-    font-size: 17pt;
+    font-size: 15pt;
     font-weight: 700;
     border: none;
     border-radius: 50px;
@@ -344,4 +344,160 @@ footer {
 
 footer a {
     color: #9792E5;
+}
+
+@media screen and (min-width: 768px) {
+	section {
+        padding: 50px 20px;
+    }
+
+    /* #demo - GET A DEMO APPLICATION */
+    
+    #demo {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .demo-card {
+        width: 31%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .demo-card:first-child {
+        width: 65%
+    }
+
+    .demo-card h2 {
+        font-size: 20pt;
+    }
+    
+    .demo-card p {
+        font-size: 13pt;
+    }
+    
+    .demo-card img {
+        width: 400px;
+        margin: -5px auto;
+    }
+    
+    .demo-card>i {
+        margin-bottom: 40px;
+        color: #0084FD;
+        font-size: 90pt;
+    }
+    
+    .demo-card button {
+        margin: 40px 0;
+        padding: 15px 70px;
+        background-color: #0084FD;
+        color: #fff;
+        letter-spacing: 5px;
+        font-size: 14pt;
+        font-weight: 700;
+        border: none;
+        border-radius: 50px;
+    }
+
+    /* #partners - WE ARE COMMITTED EXPERT PARTNERS */
+   
+    #partners {
+        text-align: center;
+    }
+
+    #partners h1 {
+        font-size: 30pt;
+    }
+
+    .partners-card {
+        padding: 20px;
+        text-align: left;
+        flex-direction: row;
+        margin: 15px 0;
+        align-items: center;
+        border-radius: 40px;
+    }
+
+    .partners-card img {
+        padding: 0; 
+    }
+
+    #partners p {
+        font-size: 13pt;
+        margin: 0 0 10px 20px;
+    }
+
+    .partners-card h2 {
+        font-size: 15pt;
+        margin-left: 20px;
+    }
+
+    /* #benefits - BENEFITS OF WORKING WITH US */
+
+    #benefits>h1 {
+        font-size: 30pt;
+    }
+
+    #benefits-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .benefits-card {
+        width: 48%;
+        padding: 30px;
+        margin: 10px 0;
+    }
+
+    .benefits-card p {
+        font-size: 13pt;
+    }
+
+    /* #about - ABOUT US */
+      
+    #about-container {
+        display: flex;
+    }
+
+    .about-col {
+        padding: 0 20px;
+    }
+
+    .about-col-left {
+        width: 220%;
+    }
+
+    #about h1 {
+        font-size: 40pt;
+    }
+
+    #about p {
+        font-size: 13pt;
+    }
+
+    #about-img {
+        width: 100%;
+    }
+
+    #about-img img {
+        width: 100%;
+        border-radius: 100%;
+        position: relative;
+    }
+
+    #about-img i {
+        font-size: 50pt;
+        left: 90%;
+    }
+
+    #about h2 {
+        font-size: 20pt;
+    }
+
+    #about button {
+        font-size: 13pt;
+    }
+
+    
 }
