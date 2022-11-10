@@ -10,18 +10,25 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /*NAV*/
 
 nav {
     background-color: #0084FD;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 .nav-col {
-    width: 50vw;
+    width: 50%;
     padding: 20px 50px;
 }
 
@@ -29,10 +36,35 @@ nav {
     height: 50px;
 }
 
-.nav-right {
+#hamburger-nav .nav-right {
     display: flex;
     justify-content: right;
     font-size: 25pt;
+}
+
+#desktop-nav .nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+}
+
+#desktop-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+#desktop-nav button {
+    padding: 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 13pt;
+}
+
+#desktop-nav {
+    display: none;
 }
 
 /*MAIN E SECTION IN GENERALE*/
@@ -43,7 +75,7 @@ section:nth-child(even) {
 
 section {
     height: auto;
-    padding: 100px 50px;
+    padding: 100px 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -348,7 +380,7 @@ footer a {
 
 @media screen and (min-width: 768px) {
 	section {
-        padding: 50px 20px;
+        padding: 100px 20px;
     }
 
     /* #demo - GET A DEMO APPLICATION */
@@ -501,3 +533,279 @@ footer a {
 
     
 }
+
+@media screen and (min-width: 992px) {
+	#desktop-nav {
+        display: flex;
+    }
+
+    #hamburger-nav {
+        display: none;
+    }
+    
+    section {
+        padding: 100px 150px;
+    }
+
+    /* #demo - GET A DEMO APPLICATION */
+    
+    #demo {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .demo-card {
+        width: 31%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .demo-card:first-child {
+        width: 65%;
+    }
+
+    .demo-card p {
+        margin-top: 10px;
+    }
+    
+    .demo-card img {
+        width: 300px;
+        margin: -5px auto;
+    }
+    
+    .demo-card>i {
+        margin-bottom: 30px;
+        font-size: 80pt;
+    }
+    
+    .demo-card button {
+        font-size: 13pt;
+        padding: 15px 50px;
+    }
+
+    /* #planning - STRATEGIC PLANNING */
+  
+    #planning-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .planning-col {
+        width: 47%;
+    }
+
+    #planning-card {
+        margin-top: 200px;
+    }
+
+    /* #benefits - BENEFITS OF WORKING WITH US */
+
+    #benefits>h1 {
+        font-size: 30pt;
+    }
+
+    #benefits-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .benefits-card {
+        width: 32%;
+        padding: 30px;
+        margin: 10px 0;
+    }
+
+    .benefits-card p {
+        font-size: 13pt;
+    }
+
+    /* #about - ABOUT US */
+      
+    #about-container {
+        display: flex;
+    }
+
+    .about-col {
+        padding: 0 20px;
+    }
+
+    .about-col-left {
+        width: 220%;
+    }
+
+    #about h1 {
+        font-size: 40pt;
+    }
+
+    #about p {
+        font-size: 13pt;
+    }
+
+    #about-img {
+        width: 100%;
+    }
+
+    #about-img img {
+        width: 100%;
+        border-radius: 100%;
+        position: relative;
+    }
+
+    #about-img i {
+        font-size: 50pt;
+        left: 80%;
+    }
+
+    #about h2 {
+        font-size: 20pt;
+    }
+
+    #about button {
+        font-size: 13pt;
+    }    
+}
+
+
+@media screen and (min-width: 1200px) {
+	#desktop-nav {
+        display: flex;
+    }
+
+    #hamburger-nav {
+        display: none;
+    }
+    
+    section {
+        padding: 100px 150px;
+    }
+
+    /* #demo - GET A DEMO APPLICATION */
+    
+    #demo {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .demo-card {
+        width: 31%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .demo-card:first-child {
+        width: 65%;
+        flex-direction: row;
+    }
+
+    .demo-card-col:last-child {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .demo-card p {
+        margin-top: 10px;
+    }
+    
+    .demo-card img {
+        width: 300px;
+        margin: -5px auto;
+    }
+    
+    .demo-card>i {
+        margin-bottom: 30px;
+        font-size: 80pt;
+    }
+    
+    .demo-card button {
+        font-size: 13pt;
+        padding: 15px 50px;
+    }
+
+    /* #planning - STRATEGIC PLANNING */
+  
+    #planning-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .planning-col {
+        width: 47%;
+    }
+
+    #planning-card {
+        margin-top: 100px;
+    }
+
+    /* #benefits - BENEFITS OF WORKING WITH US */
+
+    #benefits>h1 {
+        font-size: 30pt;
+    }
+
+    #benefits-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .benefits-card {
+        width: 32%;
+        padding: 30px;
+        margin: 10px 0;
+    }
+
+    .benefits-card p {
+        font-size: 13pt;
+    }
+
+    /* #about - ABOUT US */
+      
+    #about-container {
+        display: flex;
+    }
+
+    .about-col {
+        padding: 0 20px;
+    }
+
+    .about-col-left {
+        width: 220%;
+    }
+
+    #about h1 {
+        font-size: 40pt;
+    }
+
+    #about p {
+        font-size: 13pt;
+    }
+
+    #about-img {
+        width: 100%;
+    }
+
+    #about-img img {
+        width: 100%;
+        border-radius: 100%;
+        position: relative;
+    }
+
+    #about-img i {
+        font-size: 50pt;
+        left: 90%;
+    }
+
+    #about h2 {
+        font-size: 20pt;
+    }
+
+    #about button {
+        font-size: 13pt;
+    }    
+}
+
